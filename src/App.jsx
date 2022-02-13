@@ -1,4 +1,3 @@
-import "./App.css";
 import BioData from "./componenets/BioData";
 import Data from "./Data";
 
@@ -9,10 +8,7 @@ function App() {
   return (
     <div className="wrapper">
       <h1>Bio Data</h1>
-      <div className="container">
-        {showData}
-       
-      </div>
+      <div className="container">{showData}</div>
     </div>
   );
 }
